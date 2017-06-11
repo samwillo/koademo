@@ -1,0 +1,22 @@
+{
+    "name": "koademo",
+    "version": "1.0.0",
+    "description": "Koa Demo project",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Sam liu",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samwillo/koademo.git"
+    },
+    "dependencies": {
+        "koa": "2.2.0"
+    }
+}
