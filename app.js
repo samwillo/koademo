@@ -3,9 +3,13 @@
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 const controller = require('./controller');
+// const Sequelize = require('sequelize');
+// const config = require('./config');
 
 const app = new Koa();
 const port = 3000;
+
+
 
 app.use(async (ctx, next) => {
     console.log(`[INFO] ${Date().toLocaleString()} ${ctx.request.method}  ${ctx.request.url} ...`);
